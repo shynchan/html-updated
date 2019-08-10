@@ -1,0 +1,167 @@
+/*GENERAL CSS*/
+body{
+	font-size: 16px;
+	margin:0px;
+	 	 	 	
+}
+#container{
+	border: 2px solid black;
+	display: flex;
+}
+
+#nav-list{
+	list-style-type: none;
+	Padding:0px;
+	margin:0px;
+	display: flex;
+}
+
+#nav-list li {
+	/*float:left;*/
+	display: inline-block;
+	margin-right: 10px;
+	transition: background-color 0.3;
+}
+#nav-list li:Hover{
+	background-color: #fff
+}
+
+#nav{
+	background-color:  #D4BA6A;
+	margin: 0px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+li, a{
+	display: block;
+}
+
+
+a{
+	padding: 12px;
+	text-decoration: none;
+	color: black;
+
+}
+#social-links {
+	display: flex;
+
+}
+
+#social-links li{
+	margin-right: 10px
+}
+#image{
+	background-image: url(6.jpg);
+	background-size: cover;
+	background-position:center center;
+	padding-top:300px;
+	padding-bottom:300px;
+}
+
+#projects{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+#title{
+	text-align: center;
+}
+.website{
+	margin-right: 80px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.yellow{
+	box-shadow: 10px 10px 8px 10px #888888
+}
+
+#testimonials {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+#title {
+	text-align: center;
+}
+.yellow img;
+	transition: transform 0.6;
+
+}
+
+.yellow img:hover{
+	transform: scale(1:1)
+}
+
+.yellow{
+	margin-right: 200px;
+	margin-bottom: 40px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+
+#skills{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+.mob{
+	margin-right: 100px;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 40px;
+	
+}
+
+
+.mob img{
+	width: 100px;
+	height: 50px;
+	box-shadow: 10px 10px 8px 10px #888888
+	
+}
+
+.mob p{
+	border:2px solid black;
+	font-size:15px;
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	#nav {
+		flex-direction: column;
+		align-items: center;
+	}
+	#nav ul{
+		flex-direction: column;
+		justify-content: center;
+	}
+	#nav #social-links{
+		order: -1;
+		justify-content: center;
+	}
+
+}
